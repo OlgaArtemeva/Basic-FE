@@ -1,0 +1,51 @@
+body {
+    background: rgb(106, 99, 97);
+}
+
+article {
+    margin: 20px;
+    background: rgb(150, 212, 181);
+}
+
+section.out1 {
+    display: flex;
+    min-height: 100vh;
+}
+
+section.out {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+}
+
+section.in {
+    display: flex;
+    flex: 1;
+} 
+
+article.a {
+flex: 1;
+}
+
+article.b {
+flex: 1;
+}
+
+article.c {
+    flex: 1;
+    margin: 10px 10px 10px 20px;
+}
+
+article.d {
+    flex: 1;
+    margin: 10px 20px 10px 10px;
+}
+
+article.e {
+    flex: 7;
+    font-size: 60px;
+    text-align: left;
+    color: rgb(106, 99, 97);
+    text-indent: 20px;
+    font-family: sans-serif;
+}

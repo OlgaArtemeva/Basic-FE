@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #f6f7ff;
+        height: 100vh;
+        width: 200px;
+        padding: 20px;
+      }
+      main {
+        margin-left: 200px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="logo">Super Finti</div>
+
+        <nav class="menu">
+          <h5>Main Navigation</h5>
+          <ul>
+            <li><a href="">Item</a></li>
+            <li><a href="">Item</a></li>
+            <li><a href="">Item</a></li>
+            <li><a href="">Item</a></li>
+            <li><a href="">Item</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main>
+        <header>
+          <div>
+            <input type="text" />
+          </div>
+
+          <div>
+            <button>icon1</button>
+            <button>icon2</button>
+          </div>
+
+          <div>
+            <a href="">wallet</a>
+            <a href="">invoice</a>
+          </div>
+
+          <div>
+            Hello, Andrei
+            <img src="https://via.placeholder.com/48" alt="" />
+          </div>
+        </header>
+      </main>
+    </div>
+  </body>
+</html>

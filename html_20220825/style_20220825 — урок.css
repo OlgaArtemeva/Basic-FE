@@ -1,0 +1,11 @@
+body {
+    background: #2d273d;
+    font-family: 'Roboto', sans-serif;
+}
+   
+.wrapper {
+    background: blue;
+    width: 80%;
+    height: 80vh;
+    
+}

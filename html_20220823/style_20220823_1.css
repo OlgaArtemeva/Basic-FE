@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    word-break: break-all;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.wrapper div {
+    background: lightcoral;
+    width: calc(100% / 4 - 10px);
+border: 4px solid red;
+transition: all .5s ease-out;
+}
+
+.wrapper div:hover {
+    opacity: 0;
+    border: 4px;
+    transform: (1,5);
+}
