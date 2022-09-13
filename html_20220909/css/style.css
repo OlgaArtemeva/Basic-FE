@@ -1,0 +1,135 @@
+body {
+    background: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.header {
+    background-image: url("../img/bkg-header.jpg");
+    padding: 0 0 320px;
+}
+
+.header__menu-button {
+    height: 50px;
+    width: 50px;
+    background: #F7654A;
+    border: none;
+    padding: 0;
+}
+
+.header__menu-button:hover {
+    background: #F70A27;
+}
+
+.header__menu-button svg {
+    fill: white;
+    width: 21px;
+    height: 18px;
+}
+
+.header__menu-button:hover svg {
+    fill: gray;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    /*margin-bottom: 35px;*/
+    margin: 0 0 35px;
+}
+
+.list-navigation {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.header__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 0;
+}
+
+.header__navigation-page {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+
+.header__menu-button:hover + .header__navigation-page {
+    display: block;
+}
+
+.header__navigation-page:hover {
+    display: block;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.age__list {
+    display: flex;
+    background-color: #F7F7F7;
+    padding: 57px 130px;
+    justify-content: space-between;
+}
+
+.age__item {
+    width: 190px;
+    text-align: center;
+}
+
+.age {
+    margin: -80px 0 0 0;
+}
+.about__numer {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    color: #F7654A;
+    margin: 0 0 25px;
+}
+
+.about__age {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    margin: 0 0 10px;
+    text-transform: uppercase;  
+}
+.about__text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
